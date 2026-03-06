@@ -15,7 +15,7 @@ def job():
     wd.reset_index(inplace=True) #resets the current index
     wd.drop(columns=['index'],inplace=True)
 
-    #saves the csv processed csv file
+    #saves the processed csv file
     wd.to_csv('live_data.csv',index_label='index',index=True)
     return()
 
