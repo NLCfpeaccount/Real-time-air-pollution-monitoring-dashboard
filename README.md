@@ -63,6 +63,14 @@ A high-density heatmap used to visualize the "Pollution Count"—tracking where 
 ![India Air Pollution Dashboard Preview](Picture1.png)
 ![India Air Pollution Dashboard Preview](Picture2.png)
 
+## 🚀 Setup & Usage
+1.  **Run the Pipeline:** Execute the `data_refresh.py` script to fetch and clean the latest data.
+    ```bash
+    python data_refresh.py
+    ```
+2.  **Open Tableau:** Launch the `.twb` file. Ensure the data source is linked to the output of the Python script.
+3.  **Explore:** Use the dashboard filters to toggle between different states and pollutants.
+
 
 Since GitHub Markdown does not support interactive embeds, you can access the full real-time dashboard via the link below:
 
