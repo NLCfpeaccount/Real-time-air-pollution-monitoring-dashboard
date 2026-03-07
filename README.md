@@ -62,9 +62,9 @@ A high-density heatmap used to visualize the "Pollution Count"—tracking where 
 
 Since GitHub Markdown does not support interactive embeds, you can access the full real-time dashboard via the link below:
 
-[ ![India Air Pollution Dashboard Preview](https://github.com/your-username/your-repo/blob/main/assets/dashboard_ss.png?raw=true) ](https://public.tableau.com/app/profile/your-profile/viz/AirPollutionIndia)
+[ ![India Air Pollution Dashboard Preview](Picture1.png) ]([https://public.tableau.com/app/profile/your-profile/viz/AirPollutionIndia](https://public.tableau.com/views/Realtimeairpollutionmonitoringdashboard/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
 
-> **Note:** The data is updated every [X] hours via an automated Python ETL script fetching data from the Government API.
+> **Note:** The data is updated every 3 hours via an automated Python ETL script fetching data from the Government API.
 
 ---
 
