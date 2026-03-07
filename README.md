@@ -57,6 +57,18 @@ We applied **K-Means Clustering** to group monitoring stations with similar poll
 A high-density heatmap used to visualize the "Pollution Count"—tracking where and when the air quality index crosses hazardous thresholds most frequently.
 
 ---
+
+## 🖥️ Live Dashboard Access
+
+Since GitHub Markdown does not support interactive embeds, you can access the full real-time dashboard via the link below:
+
+[ ![India Air Pollution Dashboard Preview](https://github.com/your-username/your-repo/blob/main/assets/dashboard_ss.png?raw=true) ](https://public.tableau.com/app/profile/your-profile/viz/AirPollutionIndia)
+
+> **Note:** The data is updated every [X] hours via an automated Python ETL script fetching data from the Government API.
+
+---
+
+---
 ## 🛠️ Tech Stack
 * **Data Source:** Government Open Data API
 * **Data Engineering:** Python, Pandas, NumPy
