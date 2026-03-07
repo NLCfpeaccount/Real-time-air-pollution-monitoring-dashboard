@@ -1,8 +1,5 @@
 # 🌬️ Real-Time Air Pollution Monitor Dashboard (India)
 
-A data-driven dashboard designed to visualize and analyze air quality across India. This project utilizes statistical analysis and machine learning to identify pollution hotspots, analyze pollutant composition, and validate data integrity.
-# 🌬️ Real-Time Air Pollution Monitor Dashboard (India)
-
 A live ETL pipeline and visualization project that monitors air quality across India. This project extracts data from government APIs, processes it via Python/Pandas, and visualizes real-time insights through a Tableau dashboard.
 
 ---
