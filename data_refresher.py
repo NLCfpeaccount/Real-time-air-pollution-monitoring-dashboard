@@ -19,7 +19,7 @@ def job():
     wd.to_csv('live_data.csv',index_label='index',index=True)
     return()
 
-schedule.every(300).seconds.do(job)  #schedules the called fucntion to run every five minutes
+schedule.every(300).seconds.do(job)  #schedules the called function to run every five minutes
 
 
 while True:
