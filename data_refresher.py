@@ -9,7 +9,7 @@ def job():
     count+=1
     print(f"Refreshing data every 5 minutes,data refresh count --> {count}")  # Replace this with your actual code/task
     
-    #retrieves air pollution from government data API 
+    #retrieves air pollution data from government data API 
     wd = pd.read_csv("https://api.data.gov.in/resource/3b01bcb8-0b14-4abf-b6f2-c1bfd384ba69?api-key=579b464db66ec23bdd000001b9dcfea930f84fbc4526756ab3d1b502&format=csv&limit=1000")
     wd.dropna(inplace=True)      #drops all empty rows
     wd.reset_index(inplace=True) #resets the current index
